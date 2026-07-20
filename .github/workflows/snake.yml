@@ -1,0 +1,30 @@
+name: generate-snake
+
+on:
+  schedule:
+    - cron: "0 16 * * *"   # 每天 UTC 16:00（悉尼凌晨 2 点）
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: 生成霓虹贪吃蛇 SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: SUONSUN9527
+          outputs: |
+            dist/snake-neon.svg?color_snake=#ff2a6d&color_dots=#0d1022,#093a2a,#0d5c3f,#12a05e,#17e07f
+
+      - name: 推送到 output 分支
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
