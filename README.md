@@ -13,7 +13,7 @@
 
 <br/><br/>
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=SUONSUN9527&show_icons=true&hide_border=true&bg_color=0a0d1c&title_color=00f0ff&icon_color=ff2a6d&text_color=cfe3ff&ring_color=b537f2&border_radius=8&locale=cn&custom_title=%E2%9A%A1%20COMBAT%20STATS"/>
+<img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SUONSUN9527&show_icons=true&hide_border=true&bg_color=0a0d1c&title_color=00f0ff&icon_color=ff2a6d&text_color=cfe3ff&ring_color=b537f2&border_radius=8&locale=cn&custom_title=%E2%9A%A1%20COMBAT%20STATS"/>
 <img height="175" src="https://streak-stats.demolab.com?user=SUONSUN9527&hide_border=true&background=0A0D1C&stroke=0A0D1C&ring=FF2A6D&fire=FCEE0A&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=FF2A6D&sideLabels=5A6B8C&dates=5A6B8C&border_radius=8"/>
 
 <br/><br/>
